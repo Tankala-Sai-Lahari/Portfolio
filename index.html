@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>System Design Engineer | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ====== Navbar ====== -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">System<span>Design</span></div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+      <button id="theme-toggle" class="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <!-- ====== Home Section ====== -->
+  <section id="home" class="home fade-in">
+    <div class="home-content">
+      <h1>Hi, I'm <span>Alex Johnson</span></h1>
+      <p>A System Design Engineer passionate about building scalable and efficient architectures.</p>
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <!-- ====== About Section ====== -->
+  <section id="about" class="about fade-in">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img src="https://via.placeholder.com/250" alt="Profile Picture" class="profile-pic">
+      <div class="about-text">
+        <p>
+          I am a System Design Engineer with a deep understanding of distributed systems,
+          cloud infrastructure, and scalability principles. I design reliable, high-performance systems
+          and enjoy tackling complex design challenges.
+        </p>
+        <p>
+          Skilled in <strong>System Architecture, Cloud Computing (AWS/GCP), APIs,</strong> and
+          <strong>Microservices.</strong> I love collaborating with cross-functional teams to build impactful products.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Projects Section ====== -->
+  <section id="projects" class="projects fade-in">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card slide-up">
+        <h3>Distributed Caching System</h3>
+        <p>Designed a distributed caching layer to improve response times by 40% using consistent hashing and replication strategies.</p>
+        <a href="#" class="btn">View on GitHub</a>
+      </div>
+
+      <div class="project-card slide-up">
+        <h3>Microservices Infrastructure</h3>
+        <p>Built scalable microservices with Docker and Kubernetes, enabling fault tolerance and rapid deployment.</p>
+        <a href="#" class="btn">View on GitHub</a>
+      </div>
+
+      <div class="project-card slide-up">
+        <h3>Real-time Monitoring System</h3>
+        <p>Implemented an observability dashboard for real-time metrics and alerts using Prometheus and Grafana.</p>
+        <a href="#" class="btn">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Contact Section ====== -->
+  <section id="contact" class="contact fade-in">
+    <h2>Contact Me</h2>
+    <p>Interested in collaborating or just want to say hello?</p>
+    <form class="contact-form" id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ====== Footer ====== -->
+  <footer>
+    <p>© 2025 Alex Johnson | System Design Engineer Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
